@@ -1,15 +1,28 @@
-import AdminPanel from "./components/AdminPanel"
-import LoginForm from "./components/LoginForm"
-
-
+import Home from './Pages/Home'
+import NotFound from './Pages/NotFound';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import BackToTop from './Components/Shared/BackToTop';
+import SocialSidebar from './Components/Shared/SocialSlider';
+import { ThemeProvider } from './Context/ThemeContext';
 
 function App() {
+
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home />,
+      errorElement: <NotFound />
+    },
+  ]);
+
   return (
-    <div>
-      <h1 className="my-5 mx-3 text-amber-500 text-center text-4xl">project set up file react with tailwind css</h1>
-      <AdminPanel />
-      <LoginForm />
-    </div>
+    <>
+      <ThemeProvider>
+        <RouterProvider router={router} />
+        <BackToTop />
+        <SocialSidebar />
+      </ThemeProvider>
+    </>
   )
 }
 
