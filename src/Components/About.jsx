@@ -87,7 +87,7 @@ const About = () => {
                             className={`text-lg md:text-xl leading-relaxed mb-6 ${isDarkMode ? "text-gray-300" : "text-gray-700"
                                 }`}
                         >
-                            Hi! I'm Raheel, a passionate 8th-grade student who discovered the amazing world of
+                            Hi! I'm Shohel, a passionate learner who discovered the amazing world of
                             web development. What started as curiosity about how websites work has grown into
                             a genuine love for coding and creating digital experiences.
                         </p>

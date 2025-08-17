@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react";
 import { ChevronDown } from "lucide-react";
 import { motion } from "framer-motion";
-import RaheelArfeen from '../assets/RaheelArfeen.png';
+import RaheelArfeen from '../assets/shohel.jpeg';
 import { useTheme } from "../Context/ThemeContext";
 
 const Hero = () => {
     const [displayText, setDisplayText] = useState("");
     const [currentIndex, setCurrentIndex] = useState(0);
-    const fullText = "Fullstack Developer from Grade 8";
+    const fullText = "Fullstack Developer";
     const { isDarkMode } = useTheme();
 
     useEffect(() => {
@@ -63,7 +63,7 @@ const Hero = () => {
                                 animate={{ opacity: 1, x: 0 }}
                                 transition={{ duration: 1, delay: 0.2 }}
                             >
-                                Hello, I'm Raheel
+                                Hello, I'm Shohel
                             </motion.h1>
 
                             <motion.div
