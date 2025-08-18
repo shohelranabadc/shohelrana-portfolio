@@ -7,10 +7,10 @@ const Footer = () => {
     const { isDarkMode } = useTheme();
 
     const socialLinks = [
-        { href: "https://github.com/RaheelArfeen", icon: Github, label: "GitHub" },
-        { href: "https://www.linkedin.com/in/Raheelarfeen/", icon: Linkedin, label: "LinkedIn" },
-        { href: "mailto:raheelarfeen@gmail.com", icon: Mail, label: "Email" },
-        { href: "https://twitter.com/RaheelArfeen", icon: Twitter, label: "Twitter" },
+        { href: "https://github.com/shohelranabadc", icon: Github, label: "GitHub" },
+        { href: "https://www.linkedin.com/in/shohelrana29/", icon: Linkedin, label: "LinkedIn" },
+        { href: "mailto:shohelranabadc@gmail.com", icon: Mail, label: "Email" },
+        { href: "https://x.com/Shohel_Rana_29", icon: Twitter, label: "Twitter" },
     ];
 
     return (
@@ -66,7 +66,7 @@ const Footer = () => {
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.8, delay: 0.6 }}
                 >
-                    &copy; {new Date().getFullYear()} Raheel Arfeen. All rights reserved.
+                    &copy; {new Date().getFullYear()} Shohel Rana. All rights reserved.
                 </motion.p>
             </div>
         </footer>

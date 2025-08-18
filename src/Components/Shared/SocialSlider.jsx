@@ -8,22 +8,22 @@ const SocialSidebar = () => {
     const socialLinks = [
         {
             icon: <Github className="w-5 h-5" />,
-            url: "https://github.com/raheelarfeen",
+            url: "https://github.com/shohelranabadc",
             bg: "bg-gradient-to-br from-gray-700 to-gray-900",
         },
         {
             icon: <Linkedin className="w-5 h-5" />,
-            url: "https://www.linkedin.com/in/raheelarfeen/",
+            url: "https://www.linkedin.com/in/shohelrana29/",
             bg: "bg-gradient-to-tr from-blue-500 to-indigo-800",
         },
         {
             icon: <Twitter className="w-5 h-5" />,
-            url: "https://twitter.com/raheelarfeen",
+            url: "https://x.com/Shohel_Rana_29",
             bg: "bg-gradient-to-br from-sky-400 to-blue-700",
         },
         {
             icon: <Facebook className="w-5 h-5" />,
-            url: "https://facebook.com/raheelarfeen",
+            url: "https://www.facebook.com/shohelYousufRana",
             bg: "bg-gradient-to-tr from-indigo-500 to-blue-700",
         },
     ];
